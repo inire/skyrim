@@ -25180,6 +25180,12 @@ plugins:
         condition: 'file("JNPC_Serana.esp")'
   - name: 'JNPC_Serana_alt.esp'
     msg: [ *obsolete ]
+  - name: 'Recorder Follower Base.esp'
+    dirty:
+      - crc: 0x78add53f
+        util: *dirtyUtil
+        itm: 37
+        udr: 2
   - name: 'Serana_Revised.esp'
     msg:
       - type: say
