@@ -20546,7 +20546,6 @@ plugins:
   - name: 'Better Vampires DG.esp'
     msg: [ *obsolete ]
   - name: 'Better Vampires.esp'
-    msg: [ *doNotClean ]
   - name: 'Better Vampires ML.esp'
     inc:
       - 'Better Vampires.esp'
